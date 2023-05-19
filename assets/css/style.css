@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+body, h1, h2, h3, h4, h5, h6, p{
+	margin:0px;
+} 
+.border{
+	border:1px solid red;
+}
+.container{
+	width:90%;
+	margin:0px auto;
+	box-sizing:border-box;
+}
+.row, .d-flex{
+	display:flex;
+}
+li{
+	list-style:none;
+}
+a{
+	display:inline-block;
+	text-decoration:none;
+}
+img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/*nav section start*/
+.nav-section{
+	justify-content: center;
+}
+.nav-section .row .nav-fast a{
+	font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	color:rgba(0, 0, 0, 0.9);
+	font-size:20px;
+	font-weight:700;
+}
+.nav-fast{
+	flex:1 1 100%;
+	align-self: center;
+}
+.nav-section div, .nav-middle li a{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#6D6D6D;
+	font-size:16px;
+	font-weight:400;
+}
+li a{
+	margin:10px;
+}
+li a span{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 2px 5px 3px 5px;
+	background: #7832E2;
+	border-radius: 6px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+}
+.nav-middle{
+	flex:1 1 500%;
+	align-self: center;
+}
+.nav-last a{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#03A87C;
+	font-size:15px;
+	padding:4px 10px;
+	border-radius: 6px;
+	border:1px solid green;
+}
+.nav-last {
+	flex:1 1 100%;
+	align-self: center;
+	text-align: right;
+	background: #ffffff;
+	border-radius: 6px;
+	transition: .7s all;
+}
+.nav-last a:hover{
+	color:#ffffff;
+	background: #03A87C;
+	border: 1px solid #03A87C;
+}
+
+/*nav section start*/
+/*header section start*/
+.header-content{
+	flex:1 1 100%;
+	background:#E8F3EC;
+	box-sizing: border-box;
+	padding: 60px 30px;
+}
+.header-content h1{
+	font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	color:#212529;
+	font-size:40px;
+	line-height:48px;
+	font-weight:700;
+	margin:30px 0px 0px 20px;
+}
+.header-content p{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#212529;
+	font-size:15px;
+	line-height: 1.6;
+	margin:10px 0px 0px 20px;
+}
+.header-content a{
+	font-family:"Source Sans Pro";
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 15px;
+	margin:14px 0px 0px 20px;
+	border-radius: 6px;
+	background:#101214;
+}
+.header-img{
+	flex:1 1 100%;
+}
+/*header section  end*/
+/*artical section start*/
+.artical-section{
+	margin-top:40px;
+}
+.article-left-content{
+	flex:1 1 100%;
+	margin-right:30px;
+}
+.article-left-content h1{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#212529;
+	font-size:24px;
+	line-height: 29px;
+	font-weight:700;
+	margin:10px 0px 0px 20px;
+}
+.article-left-content p{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#212529;
+	font-size:15px;
+	line-height: 26px;
+	margin:10px 0px 0px 20px;
+}
+.article-left-content h6{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#6c757d;
+	line-height: 22px;
+	font-size:13px;
+	margin:10px 0px 0px 20px;
+}
+.article-left-content h5{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#6c757d;
+	line-height: 21px;
+	font-size:13px;
+	margin:10px 0px 0px 20px;
+}
+.article-right-content{
+	flex:1 1 100%;
+}
+.article-right-top-content{
+	flex:1 1 100%;
+}
+.article-right-top-img-content{
+	flex: 1 1 100%;
+}
+.article-right-top-blog-content{
+	flex: 1 1 300%;
+}
+.article-right-top-blog-content h1{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#03a87c;
+	line-height: 19px;
+	font-size:16px;
+	font-weight:700;
+}
+.article-right-top-blog-content h6{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#6c757d;
+	line-height: 21px;
+	font-size:13px;
+	margin-top:12px;
+}
+.article-right-top-blog-content h5{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#6c757d;
+	line-height: 21px;
+	font-size:13px;
+	margin-top:12px;
+}
+.article-right-middle-content{
+	flex:1 1 100%;
+	margin-top:20px;
+}
+.article-right-middle-img-content{
+	flex: 1 1 100%;
+}
+.article-right-middle-blog-content{
+	flex: 1 1 300%;
+}
+.article-right-down-content{
+	flex:1 1 100%;
+	margin-top:20px;
+}
+.article-right-down-img-content{
+	flex: 1 1 100%;
+}
+.article-right-down-blog-content{
+	flex: 1 1 300%;
+	
+}
